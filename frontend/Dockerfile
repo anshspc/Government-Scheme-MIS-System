@@ -1,0 +1,15 @@
+FROM node:18-alpine
+
+WORKDIR /app
+
+# Install dependencies
+COPY package.json .
+RUN npm install
+
+# Copy source code
+COPY . .
+
+EXPOSE 5173
+
+# Start dev server on host 0.0.0.0 for docker mapping
+CMD ["npm", "run", "dev", "--", "--host"]
