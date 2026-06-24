@@ -1,6 +1,6 @@
 # Government Scheme Monitoring & MIS Automation System
 
-**Live Application Link**: [https://scheme-monitoring-system.vercel.app](https://scheme-monitoring-system.vercel.app)
+**Live Application Link**: https://scheme-monitoring-system.vercel.app
 
 This is a premium, end-to-end full-stack web application designed for central and state governments to monitor the implementation and performance of major welfare schemes:
 - **PM Kisan** (Pradhan Mantri Kisan Samman Nidhi)
